@@ -1,6 +1,6 @@
 
 Feature: link redirection validation in google
-//test
+
   @RegressionTest
   Scenario: Check redirection works in google
     Given user is on google page
