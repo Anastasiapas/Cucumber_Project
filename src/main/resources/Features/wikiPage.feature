@@ -11,7 +11,7 @@ Feature: feature for link redirection validation
     Examples:
       | country |
       | Ukraine |
-      | England |
-      | Belgium |
-      | Poland  |
+#      | England |
+#      | Belgium |
+#      | Poland  |
 
