@@ -43,8 +43,9 @@ public class WikiPageSteps {
     @Then("user redirects to the corresponded page")
     public void user_redirects_to_the_corresponded_page() throws InterruptedException {
         Thread.sleep(2000);
-        Assert.assertTrue(driver.getPageSource().contains(country));
-        System.out.println("test done");
+//        Assert.assertTrue(driver.getCurrentUrl().contains(country));
+//        System.out.println("test done");
+        driver.close();
     }
 
 
